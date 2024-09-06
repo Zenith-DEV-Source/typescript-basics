@@ -11,7 +11,7 @@
 // fizz-buzz, hay varios errores. Arréglalos:
     // ** En este ejercicio, recomiendo declarar los tipos en las mismas estructuras (argumentos y retornos de ambas funciones).
     // ** El resultado debe, SIN TOCAR LOS RETORNOS DE LA ESTRUCTURA CONDICIONAL, retornar los strings en mayúscula.
-    // PISTAS: Recuerda los String.prototype para modificar estos tipos.
+    // PISTAS: Recuerda los String.prototype para modificar dichos datos.
 
 const conditions = (number) => {
         if (number % 15 === 0) return 'Fizz-Buzz';
