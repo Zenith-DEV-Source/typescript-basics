@@ -26,7 +26,7 @@ function logFunction(functionToLog: string): void {
 //------------------------------------------------------------------------------------------
 // Asignamos el respectivo tipo a los argumentos y, asimismo, el retorno de la función:     |
 //                                                                                          |
-//Se declara seguido de los parámetros ≥ (): [tipo del retorno] {retorno}                   |
+// Se declara seguido de los parámetros ≥ (): [tipo del retorno] => {retorno}               |
 //                                                                                          |
 //                                                                                          |
 // [void]: Declaramos que dicha función no tiene nada que vaya a retornar.                  |
