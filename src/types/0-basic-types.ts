@@ -8,7 +8,7 @@
 | º ≥ TS-NODE: npm install -g ts-node       º                                                                                                 |
 | º---------------------------------------- º                                                                                                 |
 | // PARA PODER VER LOS LOGS EN LA TERMINAL DE TU EDITOR:                                                                                     |
-|     * 1 - Accede a la ruta del archivo: `cd ./src/types/[ejercicio]`                                                                        |
+|     * 1 - Accede a la ruta del archivo: `cd ./src/types + first-exercises/[ejercicio]`                                                                        |
 |     * 1 - Ejecuta el comando `ts-node [ejercicio]`                                                                                          |
 | º---------------------------------------- º                                                                                                 |
 \____________________________________________________________________________________________________________________________________________*/

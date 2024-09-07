@@ -38,12 +38,12 @@ logFunction(greetings('Buenos días!', 'Gerard'));
 
 /*___________________________________________________________________________
 *                                                                              |
-* ¡Pero eso no es el final! Podemos hacer maravillas con las interfaces y      |
+* ¡Pero esto no es el final! Podemos hacer maravillas con las interfaces y     |
 * la declaración de tipos de nuestras funciones.                               |
 *                                                                              |
-* A continuación vamos a ver un pequeño ejercicio para que hagáis un poco de   |
-* investigación por vuestra cuenta. Pido que si no sabéis nada de TypeScript   |
-* y estáis siguiendo al pie de la letra este mini curso, BUSCA POR FAVOR.      |
+* Hemos preparado un sencillo ejercicio para que trabajéis vuestros dotes de   |
+* investigación. Pido que si no sabéis nada de TypeScript                      |
+* y estáis siguiendo al pie de la letra este mini curso, BUSCAD EN INTERNET.   |
 *                                                                              |
 * Esto está para que APRENDAS, ChatGPT es un recurso muy tentador, pero si     |
 * de verdad buscas progreso, házte el favor y no caigas en ese bucle de la     |
@@ -51,36 +51,7 @@ logFunction(greetings('Buenos días!', 'Gerard'));
 *                                                                              |
 * Hay mil plataformas como StacKOverFlow, la propia documentación de TS,       |
 * www3.schools.com, investiga. Mi mentor me dijo una frase muy cierta la cual  |
-* afiancé al máximo: Un dev el 80% INVESTIGADOR, 20% escritor de código.       |
-*——--—---------------------------------------------------------------
+* se convirtió en mi mantra diario:                                            |
+* Un dev es 80% INVESTIGADOR, 20% Code writer.                                 |
+*——--—------------------------------------------------------------------------
 */
-
-// EJERCICIO_1: ¿Cómo declaras en una interfaz, el tipo de una función dentro de un objeto?
-
-const projectKnowledge = {
-
-    name: 'Gerard',
-    lastName: 'de Tena - Guillén Morón',
-    technologies: ['JavaScript', 'TypeScript', 'React', 'Next', 'Angular', 'Python', 'Java', 'MySQL', 'FireBase', 'GC', 'MDB'],
-    greetingMessage(greeting) {
-        console.log(
-            `${greeting}!\n
-             My name is ${this.name} ${this.lastName},
-             I've a comprehensive knowledge on the following techs: \n
-             ${this.technologies.join(' \n' + ',')}
-             `
-        );
-    }
-}
-
-/**
- * 1.1 Dada la siguiente interfaz, establece el tipo correspondiente del objeto anterior.
- *
- * 1.2 Puedes establecer el tipo de los argumentos de la función en el mismo objeto aunque,
- *     te recomiendo que lo hagas en su totalidad desde dicha interfaz.
- * **/
-
-
-interface ProjectKnowledge {
-    // declarar aquí los tipos.
-}
