@@ -1,6 +1,6 @@
 /**
  *
- *  EJERCICIOS PRÁCTICA:
+ *  EJERCICIO 2:
  * En los siguientes ejercicios, aplicaremos varios conceptos de JavaScript
  * para darles la vuelta, y transformarlos a Typescript
  *

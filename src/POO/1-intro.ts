@@ -4,9 +4,6 @@
  *  > 1. Tipos dentro de las clases.
  *  > 2. Tipado
  *  > 3. Herencia.
- *  > 4. Modificadores
- *
- *  ==> CADA ARCHIVO CONTIENE LA TEORIA Y EJERCICIOS DEL TEMA CORRESPONDIENTE.
  *
  * --------------------------------------------------------------------------------------------**/
 
@@ -14,10 +11,12 @@
 // 1. Tipos dentro de las clases.
 
 /*
-* En esta sección no nos detendremos mucho ya que los tipos los vimos en la sección anterior.
-* Aún así refrescaremos, en ciertas ocasiones, con las interfaces, conceptos para poder relacionar bien los
-* conceptos.
-* */
+
+En esta sección no nos detendremos mucho ya que los tipos los vimos en la sección anterior.
+Aún así refrescaremos, en ciertas ocasiones, con las interfaces, conceptos para poder relacionar bien los
+conceptos.
+
+*/
 
 class Human<T> {
 
@@ -49,29 +48,29 @@ class Human<T> {
 
 
 
-// 2. Tipado.
+// 2. Tipado:
 
- /**
+ /******************************************************************************************************
   *
   * ¿Véis algo distinto en la forma que asignamos el tipo a las clases?
   * ¡Exacto! No usamos la sintáxis de los dos puntos, sino que lo hacemos con los
   * TIPOS GENÉRICOS.
   *
-  * ¿Porqué? Las clases, no dejan de ser una plantilla formada a partir de objetos,
+  * ¿Por qué? Las clases no dejan de ser una plantilla formada a partir de objetos,
   * que nos permiten adaptar el contenido a distintos contextos.
   *
   * Entonces tenemos que trabajar con tipos que se adapten a dicha flexibilidad.
   * Los TIPOS GENÉRICOS nos dan la ventaja de no tener que declarar un tipo específico a la clase
   * base de nuestro proyecto.
   *
-  * Por eso, el tipo de nuestra superclase es una simple T entre simbolos mayor-menor, como si de un
+  * Por eso, el tipo de nuestra superclase es una simple T entre símbolos mayor-menor, como si de un
   * HTML Tag se tratase.
   *
-  * Ahora declararemos la interfaz y veremos ene l siguiente concepto, como de potente es
+  * Ahora declararemos la interfaz y veremos en el siguiente concepto, como de potente es
   * esta forma de asignar tipos, ya que no solo se ciñe a las clases, podemos extrapolarlo
-  * a funciones, variables, ... .
+  * a funciones, variables, etc.
   *
-  * **/
+  * ****************************************************************************************************/
 
 
 interface HumanInterface {
@@ -87,8 +86,9 @@ interface HumanInterface {
 // 3. Herencia.
 
 /*
- * Antes de seguir con la herencia, 
- *
+ * Antes de seguir con la herencia, daos cuenta como declaramos el tipo de la clase
+ * dándole ya sentido a la 'plantilla' de tipado que comentábamos anteriormente.
+ * Esto nos permite añadir datos en las nuevas clases que hereden de Human, distintos tipos.
  *
 */
 
@@ -112,6 +112,11 @@ class Woman extends Human<HumanInterface> {
 const anna = new Woman();
 anna.greetings('Hola');
 
-// Como podéis ver, tenemos una clase base que maneja todos los atributos y metodos que tendra nuestra clase Man o Woman.
-// Eso se llama herencia e implica la utilización de los métodos de la superclase (clase padre), pudiendo tener un código
-// más limpio y reultilizable.
+/*
+* La herencia no la explicaremos ya que debemos traerla entendida de antemano como se especifica en los
+* requerimientos de esta sección.
+*
+* HASTA AQUÍ LLEGA LA INTRO DE LA POO EN TYPESCRIPT. MÁS ADELANTE ENTRAREMOS EN DETALLE EN CUÁNTO A LOS
+* MÉTODOS PRIVADOS, PROTEGIDOS Y PÚBLICOS QUE TENEMOS EN TYPESCRIPT.
+* */
+
