@@ -1,5 +1,5 @@
 /**-------------------------------------------------------------------------------------------
- *  ES IMPORTANTE ANTES DE EMPEZAR ESTA SECCIÓN, TENER BIEN AFIANZADO EL CONCEPTO DE POO EN JAVASCRIPT.
+ *  ES IMPORTANTE ANTES DE EMPEZAR ESTA SECCIÓN, TENER BIEN AFIANZADO EL CONCEPTO DE 2-POO EN JAVASCRIPT.
  *
  *  > 1. Tipos dentro de las clases.
  *  > 2. Tipado
@@ -116,7 +116,7 @@ anna.greetings('Hola');
 * La herencia no la explicaremos ya que debemos traerla entendida de antemano como se especifica en los
 * requerimientos de esta sección.
 *
-* HASTA AQUÍ LLEGA LA INTRO DE LA POO EN TYPESCRIPT. MÁS ADELANTE ENTRAREMOS EN DETALLE EN CUÁNTO A LOS
+* HASTA AQUÍ LLEGA LA INTRO DE LA 2-POO EN TYPESCRIPT. MÁS ADELANTE ENTRAREMOS EN DETALLE EN CUÁNTO A LOS
 * MÉTODOS PRIVADOS, PROTEGIDOS Y PÚBLICOS QUE TENEMOS EN TYPESCRIPT.
 * */
 

@@ -1,4 +1,4 @@
-// Ejercicio 1 POO:
+// Ejercicio 1 2-POO:
 
 /*
 *
@@ -21,7 +21,7 @@
 *          los valores que esten dentro del string interpolation sean toUpperCase().
 *
 *  --> CONSEJOS:
-*          Entiendo que la POO es un paradigma complejo y, además, el ejercicio planteado escala la dificultad considerablemente.
+*          Entiendo que la 2-POO es un paradigma complejo y, además, el ejercicio planteado escala la dificultad considerablemente.
 *          Pero si quieres aprender y ponerte al día para aportar al máximpo a este proyecto, échale huevos y apoyate en cualquier persona
 *          de la dirección, estaremos encantados de ayudarte.
 *
