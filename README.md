@@ -56,6 +56,7 @@ planteados, **debes abrir un nuevo fork** y en una rama con:
   Pushear los cambios con un commit claro y concise.
 
   #### *EJEMPLO COMMIT*:
-  **NO** : 'My first commit'
+  **NO** : 'My first commit'.
+  
   **SI** : 'Ejercicio {ejercicio}:
             Interfaz declarada + Refactorizado x método'.
