@@ -41,4 +41,21 @@ Ejercicios de TypeScript para principiantes.
   yo programo como creo que, desde mi exclusivo y subjetivo punto de vista, es mas eficiente para mi.
 
 
-* Si crees que el código es de calidad y quieres basarte en mi metodología, estaré más que encantado y orgulloso
+* Si crees que el código es de calidad y quieres basarte en mi metodología, estaré más que encantado y orgulloso de
+ayudarte y darte los tips quebme han llevado a trabajar como trabajo.
+
+* Si por el contrario tienes experiencia y quieres aportar
+tus propuestas que me ayudena mejorar,
+aún mas agradecido lo estaré.
+
+## CONTRIBUCIONES Y CORRECIONES:
+
+* Si eres estudiante y quieres subir tus resoluciones de los ejercicios
+planteados, **debes abrir un nuevo fork** y en una rama con:
+**NOMBRE Y APELLIDOS** - [NOMBRE EJERCICIO]
+  Pushear los cambios con un commit claro y concise.
+
+  #### *EJEMPLO COMMIT*:
+  **NO** : 'My first commit'
+  **SI** : 'Ejercicio {ejercicio}:
+            Interfaz declarada + Refactorizado x método'.
