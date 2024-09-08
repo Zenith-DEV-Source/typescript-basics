@@ -42,10 +42,3 @@ Ejercicios de TypeScript para principiantes.
 
 
 * Si crees que el código es de calidad y quieres basarte en mi metodología, estaré más que encantado y orgulloso
-
-  desde luego de darte los tips que he ido aprendiendo en mi corta pero intensa carrera como dev.
-
-
-* Si por otro lado no te gusta la solución planteada, estaré aún más agradecido y encantado de debatir el porqué
-  
-  ya que me ayudará a mejorar enormemente
