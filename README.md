@@ -6,7 +6,7 @@ Ejercicios de TypeScript para principiantes.
 
 ## IMPORTANTE!
 
-#### Si no tienes ningún conocimiento de JS, te recomiendo hacer algún curso que incluya:
+#### Si no tienes ningún conocimiento de JS te recomiendo hacer, además d eun curso por tu propio pie que incluya:
 
 * _**Variables, tipos y uso**_:
 
@@ -21,42 +21,48 @@ Ejercicios de TypeScript para principiantes.
 
     * POO Prototipos JS.
 
+#### los ejercicios que tenemos en el mismo repositorio que incluye teoría y ejercicios del mismo.
 ------------------------
 
 *Estos ejercicios, son una breve pero precisa introducción a Typescript.*
 
-## IMPORTANTE ! :
+---
 
-* Estos ejercicio requieren de **conocimientos básicos** (como se comenta hasta en la sopa en este repo) de JS.
+### Procedimientos:
 
-  Si no has entendido alguna explicación, ***(primero disculparme por mis dotes de docencia (ironía XD))***,
+* Para un buen uso de este recurso, pedimos hacer un fork a tu repositorio, y subir las soluciones a una nueva rama con
+  el siguiente nombre:
 
-  te recomiendo trabajar bien los paradigmas planteados antes de mirar la solución.
+  **[NOMBRE - APELLIDOS] typesctipt-basics**
 
-
-* Si por el contrario has llegado a cumplir los requerimientos al completo junto con los bonus y quieres
-
-  comparar con la solución de cada ejercicio, importantísimo lo que viene, **NO LO TOMES COMO UNA VERDAD ABSOLUTA**,
-
-  yo programo como creo que, desde mi exclusivo y subjetivo punto de vista, es mas eficiente para mi.
+* Si nunca has trabajado con github, aquí te dejo los pasos a seguir para poder llevar a cabo el procedimiento mencionado
+  anteriormente:
 
 
-* Si crees que el código es de calidad y quieres basarte en mi metodología, estaré más que encantado y orgulloso de
-ayudarte y darte los tips quebme han llevado a trabajar como trabajo.
+  * Abre github e inicia sesión.
+  * Ve al repositorio typescript-basics y, en la barra de herramientas inmediatamente encima de éste, encontrarás una pestaña
+    llamada fork, haz click en ella y configurala.
+  * Una vez tengas hecho el fork, RECOMIENDO CLONAR EL REPO A TU MÁQUNA LOCAL con e siguiente comando en la terminal powershell.
 
-* Si por el contrario tienes experiencia y quieres aportar
-tus propuestas que me ayudena mejorar,
-aún mas agradecido lo estaré.
+````shell
+    git clone [url del repositorio FORKEADO]
+````
 
-## CONTRIBUCIONES Y CORRECIONES:
+  * Una vez hecho los cambios correspondientes, crea una nueva rama dentro del repositorio y sube los cambios hechos.
 
-* Si eres estudiante y quieres subir tus resoluciones de los ejercicios
-planteados, **debes abrir un nuevo fork** y en una rama con:
-**NOMBRE Y APELLIDOS** - [NOMBRE EJERCICIO]
-  Pushear los cambios con un commit claro y concise.
+#### Guía para añadir, commitear y pushear cambios desde terminal en GitHub:
 
-  #### *EJEMPLO COMMIT*:
-  **NO** : 'My first commit'.
-  
-  **SI** : 'Ejercicio {ejercicio}:
-            Interfaz declarada + Refactorizado x método'.
+1. Una vez hechos todos los cambios, en la terminal del editor en el que estés trabjando:
+   ````shell
+   git add --all
+   ````
+   O también:
+   `````shell
+   git add .  
+   `````
+2. Haz un commit. El commit debe contener de la misma forma que el nombre de a rama, tu nombre y apellido y los ejercicios
+   que hayas resuelto.
+   `````shell
+   git commit -m [nombre y apellidos] 'A-TYPES-practice-first-lesson_sol'
+   `````
+3. Pushea los cabios usando el comando: git push origin [NOMBRE DE TU RAMA]
