@@ -25,7 +25,7 @@ Como os habéis podido dar cuenta, este módulo de POO no tiene ningún ejercici
 esto es porque debéis empezar a crear algún proyecto usando observables para poder empezar
 a adaptaros a la metodología de la programación reactiva.
 
-Os recomiendo usar apis públicas y a jugar con las respuestas para poder hacer un display
+Os recomiendo usar apis públicas ya jugar con las respuestas para poder hacer un display
 del json obtenido. 
 
 En los ejercicios de Angular nos resultará más facil ya que tendremos los jsx que nos facilitarán la vida.
